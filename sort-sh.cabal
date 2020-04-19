@@ -1,0 +1,17 @@
+cabal-version:       >=1.10
+name:                sort-sh
+version:             0.1
+synopsis:            Sort the input from STDIN
+description:
+    This program is just for me to learn haskell.
+license:             MIT
+license-file:        LICENSE
+author:              Sven Haardiek
+maintainer:          sven@haardiek.de
+category:            Console
+build-type:          Simple
+
+executable sort
+  main-is:             Main.hs
+  build-depends:       base >=4.13 && <4.14
+  default-language:    Haskell2010
